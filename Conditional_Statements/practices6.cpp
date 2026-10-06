@@ -6,10 +6,9 @@ int main(){
     int passwords;
 
     cin>>username;
-    if(username =="chandresh"){
+    if(username =="chandresh" && passwords == 782383 ){
         cout<<" your passwords:"<<endl;
         cin>>passwords;
-    } if(passwords == 782383){
         cout<<" login succesfully:"<<endl;
     }else  {
         cout<<"enter username wrong:"<<endl;
